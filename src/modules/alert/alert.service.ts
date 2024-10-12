@@ -87,7 +87,7 @@ export class AlertService {
 
       if (percentageIncrease > 0) {
         console.log(`${chain} price increased by more than 3%, sending email...`);
-        await sendPriceAlertEmail(chain, 'hyperhire_assignment@hyperhire.in', currentPrice);
+        await sendPriceAlertEmail(chain, 'test@gmail.com', currentPrice);
       }
     }
   }
