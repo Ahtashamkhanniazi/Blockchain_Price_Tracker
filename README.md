@@ -17,7 +17,6 @@ A NestJS application that tracks cryptocurrency prices and sends alerts when the
 Ensure you have the following installed on your system:
 
 - **Node.js** (v18.x or higher)
-- **npm** (v8.x or higher)
 - **PostgreSQL** (for the database)
 
 ---
@@ -28,7 +27,7 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Install Dependencies
 
-  - npm install
+  - yarn install
 
 ### 2. Install PostgreSQL
 
@@ -53,7 +52,7 @@ Follow these steps to set up and run the project locally:
 
 ### 4. Running the Application
 
-  - npm run start:dev  \\ This command starts the application in development mode.
+  - yarn run start:dev  \\ This command starts the application in development mode.
 
 ### 5. Accessing the Application
 
@@ -79,8 +78,4 @@ Follow these steps to set up and run the project locally:
     - DB_PASSWORD: The password for your PostgreSQL user.
     - DB_HOST: The host where your database is running (typically localhost for local development).
     - DB_DATABASE: The name of the database, which should be price_tracker (or any name you have chosen).
-  
-  **2**. Moralis API Key:
-    A free Moralis API key is already included in the .env file for fetching cryptocurrency data, but you can change it if you prefer to use your own API key. Simply sign up for a Moralis account and get your API key, then update the following line in the .env file:
-
 
